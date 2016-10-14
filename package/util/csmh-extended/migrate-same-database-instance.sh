@@ -2,8 +2,8 @@ MINID=0
 MAXID=1003426362
 STEP=10000
 MIGRATE_USER=migrate
-PASSWORD='admin091'
-HOST='127.0.0.1'
+PASSWORD='secret-password'
+HOST='my-database-instance'
  
  
 for ((i=0; i<=$MAXID; i+=$STEP)); do
