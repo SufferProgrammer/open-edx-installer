@@ -3,12 +3,13 @@
 echo '[*]Installing system requirements please wait...'
 apt-get update
 
-apt-get install python python-dev python-setuptools build-essential libmysqlclient-dev
+apt-get install python python-dev python-setuptools
+dpkg -i mysqlcon.deb
+apt-get update --fix-missing
+
 easy_install pip==8.1.2
 pip install --upgrade pip
-pip install --upgrade wsgiref
-cd /var/tmp
-git clone https://github.com/edx/configuration.git
-cd configuration/
-pip install -r requirements.txt
+cd package
+pip install -r requrements.txt
+
 echo '[*]Installing system done please start run.sh for running application...'

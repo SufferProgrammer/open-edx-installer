@@ -1,4 +1,0 @@
-jika install.sh masih mengalami error line: 12: pip: command not found: lakukan langkah berikut:
-1. ketikkan apt-get install python python-dev python-setuptools
-2. lalu kemudian ketikkan pada terminal "easy_install pip==8.1.2"
-3. kemudian tunggu hingga proses selesai, dan jika sudah maka anda bisa menjalankan script ./install-opendedX.sh.
